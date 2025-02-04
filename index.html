@@ -39,8 +39,8 @@
     </style>
 </head>
 
-<body class="sora-font w-[98%] md:w-[95%] lg:w-[90%] mx-auto px-4 md:px-6 py-4 md:py-8">
-    <header>
+<body class="sora-font">
+    <header class="w-[98%] md:w-[95%] lg:w-[90%] mx-auto px-4 md:px-6 py-4 md:py-8">
         <nav class="flex items-center justify-between drop-shadow-md lg:drop-shadow-none bg-[#FFF9F4] pb-4 md:pb-0">
             <div class="flex items-center gap-2">
                 <img src="c1-assets/logo-header.png" alt="">
@@ -80,7 +80,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="w-[98%] md:w-[95%] lg:w-[90%] mx-auto px-4 md:px-6 pt-4 md:pt-8">
         <!-- browsing section start -->
         <section class="mt-32 space-y-9">
             <h2 class="adlam-font text-4xl">Browse By Categories</h2>
@@ -121,6 +121,26 @@
                 </div>
             </div>
         </section>
+        <!-- creative section start best pets food -->
+         <section class="mt-32 space-y-9">
+            <h2 class="adlam-font text-4xl">Pets Best Food</h2>
+            <div class="flex lg:flex-row flex-col gap-6">
+                <div class="space-y-3 border-2 drop-shadow-md bg-orange-300 rounded-2xl text-center p-7 w-full lg:w-[50%]">
+                    <img class="h-[300px] w-[300px] rounded-full mx-auto" src="c1-assets/dog-1.jpg" alt="">
+                    <h3 class="adlam-font text-3xl text-teal-600">Food For Dog's</h3>
+                    <p class="text-xl text-gray-600">You Can Get Best Food From Online</p>
+                    <button class="text-lg text-white bg-black px-7 py-2 border rounded-lg border-yellow-400">Buy Now</button>
+                    <p class="text-base text-green-600"><a href="">See More...</a></p>
+                </div>
+                <div class="space-y-3 border-2 drop-shadow-md bg-orange-300 rounded-2xl text-center p-7 w-full lg:w-[50%]">
+                    <img class="h-[300px] w-[300px] rounded-full mx-auto" src="c1-assets/cat-2.jpg" alt="">
+                    <h3 class="adlam-font text-3xl text-teal-600">Food For Cat's</h3>
+                    <p class="text-xl text-gray-600">You Can Get Best Food From Online</p>
+                    <button class="text-lg text-white bg-black px-7 py-2 border rounded-lg border-yellow-400">Buy Now</button>
+                    <p class="text-base text-green-600"><a href="">See More...</a></p>
+                </div>
+            </div>
+         </section>
         <!-- product section start -->
         <section class="mt-32 space-y-9 bg-red-50 md:p-3">
             <h2 class="adlam-font text-4xl">Trending Pet Products</h2>
@@ -248,11 +268,55 @@
                     <h3 class="adlam-font text-3xl">T-Shirt For Dogs</h3>
                     <h2 class="adlam-font text-5xl text-[#FFDC26]">$7.99</h2>
                 </div>
+                <!-- <div
+                    class="space-y-2 bg-no-repeat bg-right-bottom bg-contain rounded-2xl border-2 pt-12 pl-6 h-[400px] bg-[linear-gradient(to_right_bottom,rgba(49,84,44,0.8),rgba(16,71,52,0.8)),url('./c1-assets/cute-pet-small.png')]
+                    S">
+                    <h3 class="adlam-font text-3xl">T-Shirt For Dogs</h3>
+                    <h2 class="adlam-font text-5xl text-[#FFDC26]">$7.99</h2>
+                </div> -->
+            </div>
+        </section>
+        <!-- news section start -->
+        <section class="bg-[#FFF9F4] border-2 drop-shadow-md rounded-2xl relative top-56">
+            <div class="flex flex-col text-center justify-center lg:text-left lg:justify-start lg:flex-row lg:items-center gap-12 lg:gap-28 lg:py-9 lg:px-20 py-7 px-5">
+                <div class="mx-auto">
+                    <img src="c1-assets/cute-pet-mid.png" alt="">
+                </div>
+                <div class="space-y-5">
+                    <h2 class="adlam-font text-4xl text-[#111111]">Get Pawsome News!</h2>
+                    <p class="text-xl text-[#111111]">Exclusive training tips, ticks, product deals and more.</p>
+                    <div>
+                        <input class="text-base p-5 w-[97%] lg:w-[88%] border-2 rounded-xl" type="email" name="" id="" placeholder="Enter Your Email...">
+                    </div>
+                    <button class="text-lg text-[#111111] px-7 py-2 border rounded-lg border-yellow-400 bg-yellow-400">Subscribe</button>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#F9DF8A] pt-[366px] pb-12 pl-5 lg:pr-[124px] lg:pb-[140px] lg:pl-[156px] pr-5">
+        <div class="flex flex-col lg:flex-row lg:justify-between bg-[#F9DF8A] space-y-6 lg:space-y-0 lg:items-center">
+            <div class="lg:w-[426px]">
+                <div class="flex items-center gap-2">
+                    <img src="c1-assets/logo-footer.png" alt="">
+                    <h4 class="text-2xl text-[#111111]">Browse<span class="text-[#FFDC26]">4</span>Pets</h4>
+                </div>
+                <p class="text-xl text-gray-600 mt-2">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+            <div class="flex-col lg:space-y-5 space-y-2">
+                <p><a href="">Find a pet</a></p>
+                <p><a href="">Breeds</a></p>
+                <p><a href="">Contact us</a></p>
+            </div>
+            <div>
+                <p class="font-medium text-base text-[#111111]">Follow Us</p>
+                <div class="space-x-5">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://bd.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
